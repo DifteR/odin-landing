@@ -1,0 +1,22 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #1f2937;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.logo {
+  padding: 12px;
+}
+header a {
+  color: #e5e7eb;
+  font-size: 18px;
+  text-decoration: none;
+}
