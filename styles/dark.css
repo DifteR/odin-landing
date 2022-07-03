@@ -26,15 +26,45 @@ header ul {
   list-style-type: none;
   gap: 12px;
 }
-.hero {
+.hero-container {
+  display: flex;
   background-color: #1f2937;
   margin: 0;
   border: 0;
   padding: 0;
 }
-h1 {
+.hero-card h1 {
   margin: 0;
   font-size: 48px;
   font-weight: 1000;
   color: #f9faf8;
+}
+.hero-card {
+  margin-top: 0;
+  padding-left: 350px;
+  width: 400px;
+  height: 400px;
+}
+.hero-content {
+  margin-top: 0;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.pocket-shot {
+  width: 35vw;
+}
+.our-store {
+  background-color: #3882f6;
+  border-color: #3882f6;
+  border-radius: 10px;
+  width: 120px;
+  height: 40px;
+  color: white;
+  font-size: 18px;
+  font-weight: 800;
+}
+.our-products {
+  color: #1f2937;
+  margin-left: auto;
+  margin-left: auto;
 }
