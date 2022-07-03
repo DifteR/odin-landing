@@ -46,12 +46,14 @@ header ul {
   height: 400px;
 }
 .hero-content {
+  flex: 0 0 auto;
   margin-top: 0;
   font-size: 18px;
   color: #e5e7eb;
 }
 .pocket-shot {
-  width: 35vw;
+  width: 600px;
+  flex: 0 0 auto;
 }
 .our-store {
   background-color: #3882f6;
@@ -71,9 +73,11 @@ header ul {
 .card-container {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .products {
+  flex: auto;
   border-radius: 12px;
   padding: 0;
   border: 4px;
