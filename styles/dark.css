@@ -68,3 +68,15 @@ header ul {
   margin-left: auto;
   margin-left: auto;
 }
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.products {
+  border-radius: 12px;
+  padding: 0;
+  border: 4px;
+  border-color: #3882f6;
+  border-style: solid;
+}
