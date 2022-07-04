@@ -10,10 +10,18 @@ header {
   padding: 0;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 15vw;
+  padding-right: 15vw;
+}
+.break {
+  flex-basis: 100%;
+  height: 0;
 }
 .logo {
   padding: 12px;
+  margin-left: auto;
 }
 header a {
   color: #e5e7eb;
@@ -28,10 +36,12 @@ header ul {
 }
 .hero-container {
   display: flex;
+  justify-content: space-evenly;
   background-color: #1f2937;
   margin: 0;
   border: 0;
   padding: 0;
+  flex-wrap: wrap;
 }
 .hero-card h1 {
   margin: 0;
@@ -41,19 +51,22 @@ header ul {
 }
 .hero-card {
   margin-top: 0;
-  padding-left: 350px;
+  /*padding-left: 350px;*/
   width: 400px;
   height: 400px;
 }
 .hero-content {
-  flex: 0 0 auto;
+  /*flex: 0 0 auto;*/
   margin-top: 0;
   font-size: 18px;
   color: #e5e7eb;
 }
 .pocket-shot {
-  width: 600px;
-  flex: 0 0 auto;
+  object-fit: contain;
+  max-width: 500px;
+  /*align-items: center;
+  width: auto;
+  flex: 1 1 auto; */
 }
 .our-store {
   background-color: #3882f6;
