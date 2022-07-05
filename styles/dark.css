@@ -132,3 +132,13 @@ header ul {
   margin-top: 20px;
   margin-left: auto;
 }
+footer {
+  background-color: #1f2937;
+  min-height: 30px;
+}
+footer p {
+  text-align: center;
+  margin-left: auto;
+  color: #f9faf8;
+  margin: 0;
+}
