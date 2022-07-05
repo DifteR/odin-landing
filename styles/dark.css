@@ -111,3 +111,24 @@ header ul {
   font-weight: 900;
   margin-left: auto;
 }
+.action-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  background-color: #3882f6;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  color: white;
+}
+.action-call form {
+  justify-self: center;
+}
+.action-call-button {
+  justify-self: flex-end;
+  border-color: white;
+  margin-top: 20px;
+  margin-left: auto;
+}
