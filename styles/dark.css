@@ -142,8 +142,7 @@ header ul {
 .register-form{
 
   padding: 5%;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
   color: #f9faf8;
   margin-left: 20%;
   background-color: #1f2937;
