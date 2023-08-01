@@ -22,7 +22,10 @@
 
   }
   .register-content{
-    position: relative;
+    position: absolute;
+    top: 30%;
+    margin-left: 20vw;
+    width: 80%;
   }
   fieldset{
     display: flex;
@@ -31,5 +34,9 @@
     border: 0px;
   }
   .input-group{
-    display: block;
+    display: flex;
+    flex-direction: column;
+  }
+  .sidebar{
+    z-index: 1000;
   }
