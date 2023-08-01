@@ -1,32 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/dark.css" />
+    <link rel="stylesheet" href="./styles/register.css" />
     <title>Register</title>
-</head>
-<body class="register-page">
-    <div class="sidebar"><img src="photos/register_sidebar.png" class="register_side"><img></div>
-    <div class="content">
-        <form action="register.html" method="post" class="register-form">
-            <fieldset>
-                <label for="first_name">First name: </label>
-                <input id="first_name" type="text">
-                <label for="last_name">Last name: </label>
-                <input id="last_name" type="text"><br>
-            </fieldset>
-            <label for="email">Email: </label>
-            <input type="email" name="email" id="email">
-            <label for="phone-number">Phone number:</label>
-            <input type="tel" name="phone-number" id="phone-number><br>
-            <fieldset>
-                <label for="password">Password</label>
-                <input type="password" name="password" id="password">
-                <label for="repeat-password">Repeat password</label>
-                <input type="password" name="repeat-password" id="repeat-password">
-        </form>
+  </head>
+  <body class="register-page">
+    <div class="sidebar">
+      <img src="photos/register_sidebar.png" class="register_side" /><img />
     </div>
-
-</body>
+    <div class="register-content">
+      <form action="register.html" method="post" class="register-form">
+        <legend>Let's do this</legend>
+        <fieldset>
+          <div class="input-group">
+            <label for="first_name">First name: </label>
+            <input id="first_name" type="text" />
+          </div>
+          <div class="input-group">
+            <label for="last_name">Last name: </label>
+            <input id="last_name" type="text" /><br />
+          </div>
+        </fieldset>
+        <fieldset>
+          <div class="input-group">
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div class="input-group">
+            <label for="phone-number">Phone number:</label>
+            <input type="tel" name="phone-number" id="phone-number" />
+          </div>
+        </fieldset>
+        <fieldset>
+          <div class="input-group">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" />
+          </div>
+          <div class="input-group">
+              <label for="repeat-password">Repeat password</label>
+              <input type="password" name="repeat-password" id="repeat-password" />
+          </div>
+          <input type="submit" value="Register now!" />
+        </fieldset>
+      </form>
+    </div>
+  </body>
 </html>

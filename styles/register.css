@@ -1,0 +1,35 @@
+.register-page{
+    display: flex;
+    flex-grow: 2;
+  }
+  .register-form{
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    gap: 10px 30px;
+    justify-content: flex-start;
+    padding: 5%;
+    color: #f9faf8;
+    margin-left: 20%;
+    background-color: #1f2937;
+  }
+  .register_side{
+    height: 100%;
+    /*position: absolute;*/
+    left: 0px;
+    top: 0px;
+
+  }
+  .register-content{
+    position: relative;
+  }
+  fieldset{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    border: 0px;
+  }
+  .input-group{
+    display: block;
+  }
